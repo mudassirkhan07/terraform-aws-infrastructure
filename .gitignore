@@ -1,0 +1,89 @@
+# =========================================
+# Terraform
+# =========================================
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraform working directory
+.terraform/
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+
+# =========================================
+# Secrets / Credentials
+# =========================================
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Private keys
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Environment files
+.env
+.env.*
+
+# Secret/config files
+secrets.tfvars
+secret.tfvars
+
+
+# =========================================
+# OS / Editor Files
+# =========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+
+# =========================================
+# Logs
+# =========================================
+
+*.log
+
+
+# =========================================
+# Terraform plan files
+# =========================================
+
+*.tfplan
+*.plan
